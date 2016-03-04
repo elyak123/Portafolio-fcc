@@ -3,6 +3,7 @@ function encabezado (){
 		$('header').html(data);
 	});
 	$(".boton-movil").click(function(){
+		debugger;
 		if ($("li").hasClass("menu-listitem")) {
 			console.log("true");
 			$(".menu-listitem").slideDown("slow").addClass("menu-listMovil").removeClass("menu-listitem");	
