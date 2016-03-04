@@ -1,8 +1,6 @@
-function encabezado (){
-	$.get('http://elyak123.github.io/Portafolio-fcc/Templates/encabezado.html', function (data){
-		$('header').html(data);
-	});
-}
+$.get('http://elyak123.github.io/Portafolio-fcc/Templates/encabezado.html', function (data){
+	$('header').html(data);
+});
 $(".boton-movil").click(function(){
 	debugger;
 	if ($("li").hasClass("menu-listitem")) {
