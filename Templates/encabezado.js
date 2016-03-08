@@ -1,6 +1,6 @@
 function encabezado (){
 	$.get('http://elyak123.github.io/Portafolio-fcc/Templates/encabezado.html', function (data){
-		$('body').append(data);
+		$('body').prepend(data);
 	});
 	$(document).on('click', '.boton-movil', function(){
 		if ($("li").hasClass("menu-listitem")) {
