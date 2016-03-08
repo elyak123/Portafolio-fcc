@@ -37,6 +37,14 @@ body{
 	background-position: top center;
 	background-repeat: no-repeat;
 }
+#home:before,
+#home:after{
+	content: "";
+	display: table;
+}
+#home:after{
+	clear: both;
+}
 #home h3{
 	color: white;
 	text-align: center;
