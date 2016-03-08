@@ -26,6 +26,9 @@ body{
 	-ms-transition:0.3s;
 	-moz-transition:0.3s;
 }
+#currentImage{
+	height: 12em;
+}
 #home{
 	background-image: url(https://media.licdn.com/media//AAEAAQAAAAAAAAPhAAAAJDA5MDE1NTFhLWE1ZmQtNDgzYS05ZmQ0LTMxYTNmZTI1ZGJjNw.jpg);
 	text-align: center;
