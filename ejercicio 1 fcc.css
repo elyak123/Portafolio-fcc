@@ -58,12 +58,12 @@ body{
 	background-attachment: fixed;
 	min-height: 43em;
 }
-.menu-container:before,
-.menu-container:after{
+#menuPrincipal:before,
+#menuPrincipal:after{
 	content: "";
 	display: table;
 }
-.menu-container:after{
+#menuPrincipal:after{
 	clear: both;
 }
 .menu-list{
