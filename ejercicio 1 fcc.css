@@ -54,6 +54,14 @@ body{
 	width: 100%;
 	z-index: 8;
 }
+#encabezado:before,
+#encabezado:after{
+	content: "";
+	display: table;
+}
+#encabezado:after{
+	clear: both;
+}
 .seccion{
 	background-attachment: fixed;
 	min-height: 43em;
@@ -84,14 +92,6 @@ body{
 	padding: 0.7em 1em;
 	font-family: sans-serif;
 	margin: auto;	
-}
-.menu-listTitle:before,
-.menu-listTitle:after{
-	content: "";
-	display: table;
-}
-.menu-listTitle:after{
-	clear: both;
 }
 .menu-listMovil{
 	display: block;
