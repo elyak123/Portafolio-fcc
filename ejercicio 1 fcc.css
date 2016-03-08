@@ -85,6 +85,14 @@ body{
 	font-family: sans-serif;
 	margin: auto;	
 }
+.menu-listTitle:before,
+.menu-listTitle:after{
+	content: "";
+	display: table;
+}
+.menu-listTitle:after{
+	clear: both;
+}
 .menu-listMovil{
 	display: block;
 	width: 100%;
