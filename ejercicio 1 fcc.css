@@ -110,6 +110,11 @@ body{
 	font-family: sans-serif;
 	margin: auto;
 }
+#weather{
+	position: relative;
+	top: 90px;
+	text-align: center;
+}
 #nombre{
 	position: absolute;
 	margin-left: 1.5em;
