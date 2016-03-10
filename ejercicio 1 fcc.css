@@ -114,6 +114,11 @@ body{
 	padding-top: 90px;
 	text-align: center;
 }
+#gpsTrigger{
+	background-color: transparent;
+	border: 0;
+	color: #337ab7;
+}
 #nombre{
 	position: absolute;
 	margin-left: 1.5em;
