@@ -18,6 +18,6 @@ function encabezado (){
 }
 function footer(){
 	$.get('http://elyak123.github.io/Portafolio-fcc/Templates/footer.html', function(data){
-		$('body')append(data);
+		$('body').append(data);
 	});
 }
