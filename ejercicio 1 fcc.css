@@ -351,6 +351,7 @@ footer p{
 	}
 	#currentImage{
 		width: 95%;
+		height: 95%;
 	}
 	/*@-webkit-keyframes cloud1 {
 		0% {transform: translateX(-520px);}
