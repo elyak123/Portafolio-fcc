@@ -1,5 +1,5 @@
 function encabezado (){
-	$.get('http://elyak123.github.io/Portafolio-fcc/Templates/encabezado.html', function (data){
+	$.get('https://elyak123.github.io/Portafolio-fcc/Templates/encabezado.html', function (data){
 		$('body').prepend(data);
 	});
 	$(document).on('click', '.boton-movil', function(){
@@ -17,7 +17,7 @@ function encabezado (){
 	});	
 }
 function footer(){
-	$.get('http://elyak123.github.io/Portafolio-fcc/Templates/footer.html', function(data){
+	$.get('https://elyak123.github.io/Portafolio-fcc/Templates/footer.html', function(data){
 		$('body').append(data);
 	});
 }
